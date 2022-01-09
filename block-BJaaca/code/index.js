@@ -64,3 +64,5 @@ character.totalSeasons = 1 + 2 + 3 + 2;
 
 // - Access the value of the key `totalSeason` (it should be 8)
 console.log(character.totalSeasons);
+
+
