@@ -128,7 +128,7 @@ for(let movie of movies) {
 
 // 26. Log the number of genres in all three movies one by one
 for(let movie of movies) {
-    console.log(movies.genres.length, "genres-length");
+    console.log(movie.genres.length, "genres-length");
   }
 
 // 27. Log the name of all the movies with more than 1 genre
@@ -155,3 +155,14 @@ for (let movie of movies) {
     console.log(movie.title, "titles");
   }
 }
+
+
+let sum= prompt(`What will be the result of 12 + 12?`);
+
+if (String(sum == 24)) {
+  alert(`Hurray 🔥 You are right!`);
+} else {
+  alert(`Sorry you are wrong!`);
+}
+
+
