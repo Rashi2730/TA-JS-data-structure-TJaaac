@@ -56,3 +56,6 @@ for(let number of numbers) {
     }
 }
 console.log(`The array items divisible by 3 are : ${arrayBy3}`);
+
+
+
