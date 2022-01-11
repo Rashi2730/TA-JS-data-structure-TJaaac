@@ -12,7 +12,7 @@ let arr2 = arr;
 Answer the following with reason after going through the above code:
 
 - `[10] === [10]`  // false , since the address can be different.
-- What is the value of obj? // answer
+- What is the value of obj? // answer - obj = { surname: 'Stark' };
 - `obj == newObj` //  false , adddress is different 
 - `obj === newObj` // false
 - `user === newObj` // false 
@@ -33,8 +33,8 @@ function personDetails(person) {
 }
 var person1 = { name: 'Alex', age: 30 };
 var person2 = personDetails(person1);
-console.log(person1); // { name: 'Alex', age: 30 }
-console.log(person2); // { name: 'Alex', age: 30 }
+console.log(person1); // { name: 'Alex', age: 25}
+console.log(person2); // { name: 'John', age: 50 }
 ```
 
 3. What will be the output of the below code:
