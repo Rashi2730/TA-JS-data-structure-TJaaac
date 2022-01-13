@@ -117,7 +117,7 @@ console.log(`The array is ${allDescription} and the length is ${allDescription.l
 // 20. Only the the description whose length is more than 30. (use .length property on string to get the length)
 
 for(let description of allDescription) {
-  let lenDEs = +(description.length);
+  let lenDEs = (description.length);
   if(description.length > 30){
     console.log(description);
   }
